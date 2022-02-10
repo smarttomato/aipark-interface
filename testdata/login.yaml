@@ -1,0 +1,23 @@
+-
+  case_name: "登录正向用例"
+  url: "/login"
+  data:
+    username: "root"
+    password: "root"
+  expect:
+    {
+      code: 0,
+      msg: "成功"
+    }
+
+-
+  case_name: "登录反向用例"
+  url: "/login"
+  data:
+    username: "root"
+    password: "root1"
+  expect:
+    {
+      code: 1,
+      msg: "用户名或密码错误"
+    }
