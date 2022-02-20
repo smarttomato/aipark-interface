@@ -16,8 +16,6 @@ class Mysql:
     def fetchone(self, sql):
         """
         单个查询
-        :param sql:
-        :return:
         """
         self.cursor.execute(sql)
         return self.cursor.fetchone()
@@ -25,8 +23,6 @@ class Mysql:
     def fetchall(self, sql):
         """
         多个查询
-        :param sql:
-        :return:
         """
         self.cursor.execute(sql)
         return self.cursor.fetchall()
@@ -34,7 +30,6 @@ class Mysql:
     def exec(self, sql):
         """
         执行
-        :return:
         """
         try:
             self.cursor.execute(sql)

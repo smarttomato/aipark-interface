@@ -1,17 +1,16 @@
 import allure
-import pytest
 
 
-@allure.feature("这是一级feature")
-class Test_demo:
+@allure.feature("feature测试")
+class Testdemo:
     def setup_class(self):
         print("---setup_class---")
 
     def teardown_class(self):
         print("--teardown_class--")
 
-    @allure.title("test_a")
-    @allure.story("这是二级story")
+    @allure.title("a的title")
+    @allure.story("story测试")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_a(self):
         print("test_a")

@@ -1,7 +1,5 @@
 import yaml
 import os
-import json
-from config.conf_dir import config_dir, common_dir
 
 
 class YamlReader:
@@ -20,7 +18,3 @@ class YamlReader:
     def save_data(self, data):
         with open(self.yaml_file, "w") as f:
             yaml.dump(data, f)
-
-
-if __name__ == '__main__':
-    pass

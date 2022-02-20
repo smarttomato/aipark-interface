@@ -1,21 +1,26 @@
 import allure
 import requests
 import pytest
-from common.base import Base
+from configs.config import host
+from common.base import get_test_data
 
 
-base = Base()
-test_data = base.get_test_data("login")
-url = base.get_url() + test_data[0]["url"]
+test_data = get_test_data("login")
+url = host["test"] + test_data[0]["path"]
 
 
-class Test_Login:
+@allure.feature("登录接口")
+class TestLogin:
     @pytest.mark.parametrize("data", test_data)
-    @allure.title("测试登录")
     def test_login(self, data):
-        allure.dynamic.title( data["case_name"])
         response = requests.post(url=url, data=data["data"]).json()
-        print(response)
+        desc = "<font color='#4287f5'>请求url: <font color='#000'>{} <br/>" \
+               "<font color='#4287f5'>请求类型：<font color='#000'>{} <br/>" \
+               "<font color='#4287f5'>期望结果：<font color='#000'>{} <br/>" \
+               "<font color='#4287f5'>实际结果：<font color='#000'>{}".format(url, data["type"], data["expect"], response)
+        allure.dynamic.story(data["case_name"])
+        allure.dynamic.title("title" + data["case_name"])
+        allure.dynamic.description(desc)
         assert response == data["expect"]
 
 
