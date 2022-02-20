@@ -29,4 +29,3 @@ xxx_db = {
     'password': '',
     'database': '',
 }
-
