@@ -1,26 +1,23 @@
 -
   case_name: "登录正向用例"
-  path: "/user/login"
+  path: "/ucenter/user/login"
   type: "post"
   data:
-    username: "root"
-    password: "123456"
+    passport: "15701599887"
+    password: "g7123456"
   expect:
     {
-     'code': 0,
-     'msg': '登录成功',
-     'token': 'token'
+     status: 0
     }
 
 -
-  case_name: "登录反向用例"
-  path: "/user/login"
+  case_name: "登录正向用例"
+  path: "/ucenter/user/login"
   type: "post"
   data:
-    username: "root"
-    password: "12345"
+    passport: "15701599887"
+    password: "g71234567"
   expect:
     {
-      code: 1,
-      msg: "登录失败"
+     status: 500
     }

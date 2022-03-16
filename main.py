@@ -1,4 +1,3 @@
-
 import pytest
 from configs.config import report_dir
 import time
@@ -9,7 +8,7 @@ report_name = report_dir + '/interface_autotest_{}'.format(current_time)
 pytest.main([
              '-s', '-q',
              '-p', 'no:warnings',
-             # '--reruns','1',
+             # '--reruns', '2',
              '--alluredir', report_name,
             ])
 

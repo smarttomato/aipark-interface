@@ -1,0 +1,41 @@
+[ {
+  "uid" : "983d3636eb705ae4",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1647401973980,
+    "stop" : 1647401974513,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb3490f0d9e562b5",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1647401973356,
+    "stop" : 1647401973976,
+    "duration" : 620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73fb4fae155dcdec",
+  "name" : "test_b",
+  "time" : {
+    "start" : 1647401973354,
+    "stop" : 1647401973354,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "430702aa6da0135f",
+  "name" : "a的title",
+  "time" : {
+    "start" : 1647401973352,
+    "stop" : 1647401973353,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

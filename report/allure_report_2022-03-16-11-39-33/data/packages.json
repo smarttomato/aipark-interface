@@ -1,0 +1,85 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "a的title",
+        "uid" : "430702aa6da0135f",
+        "parentUid" : "69fba43da2fbdaa7b383084a6faa5008",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647401973352,
+          "stop" : 1647401973353,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_b",
+        "uid" : "73fb4fae155dcdec",
+        "parentUid" : "69fba43da2fbdaa7b383084a6faa5008",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647401973354,
+          "stop" : 1647401973354,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69fba43da2fbdaa7b383084a6faa5008"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "登录正向用例",
+        "uid" : "cb3490f0d9e562b5",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647401973356,
+          "stop" : 1647401973976,
+          "duration" : 620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': '15701599887', 'password': 'g7123456'}, 'expect': {'status': 0}}" ]
+      }, {
+        "name" : "登录正向用例",
+        "uid" : "983d3636eb705ae4",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647401973980,
+          "stop" : 1647401974513,
+          "duration" : 533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': '15701599887', 'password': 'g71234567'}, 'expect': {'status': 500}}" ]
+      } ],
+      "uid" : "cc0ea573530a3fefba2a1fc590840070"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

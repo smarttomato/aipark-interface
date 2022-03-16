@@ -3,7 +3,6 @@ from utils.YamlUtil import YamlReader
 from configs.config import testdata_dir
 import os
 
-
 """
 一些公共方法
 """
@@ -21,8 +20,8 @@ def get_headers():
     return headers
 
 
-def do_md5(str):
-    new_str = str.encode()
+def do_md5(str_input):
+    new_str = str_input.encode()
     m = hashlib.md5()
     m.update(new_str)
     return m.hexdigest()

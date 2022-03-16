@@ -18,7 +18,7 @@ log_info = {
 
 # host配置
 host = {
-    "test": "http://127.0.0.1:5000"
+    "test": "https://desp-api.test.chinawayltd.com/v1"
 }
 
 # 数据库配置
