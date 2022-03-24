@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录接口",
+    "children" : [ {
+      "name" : "登录正向用例",
+      "uid" : "13b7b146947c782a",
+      "parentUid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648092920468,
+        "stop" : 1648092921233,
+        "duration" : 765
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g7123456'}, 'expect': {'status': 0}}" ]
+    }, {
+      "name" : "登录正向用例",
+      "uid" : "3e8b2528a84956ee",
+      "parentUid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648092921237,
+        "stop" : 1648092921691,
+        "duration" : 454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g71234567'}, 'expect': {'status': 500}}" ]
+    } ],
+    "uid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1"
+  } ]
+}

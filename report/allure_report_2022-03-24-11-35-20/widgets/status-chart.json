@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3e8b2528a84956ee",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1648092921237,
+    "stop" : 1648092921691,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13b7b146947c782a",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1648092920468,
+    "stop" : 1648092921233,
+    "duration" : 765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

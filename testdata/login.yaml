@@ -3,7 +3,7 @@
   path: "/ucenter/user/login"
   type: "post"
   data:
-    passport: "15701599887"
+    passport: "driver1"
     password: "g7123456"
   expect:
     {
@@ -15,7 +15,7 @@
   path: "/ucenter/user/login"
   type: "post"
   data:
-    passport: "15701599887"
+    passport: "driver1"
     password: "g71234567"
   expect:
     {
