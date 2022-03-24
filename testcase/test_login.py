@@ -23,7 +23,7 @@ class TestLogin:
                "<font color='#4287f5'>实际结果：<font color='#000'>{}".format(url, data["type"], data["expect"], response)
         # allure.dynamic.story(data["case_name"])
         allure.dynamic.title(data["case_name"])
-        allure.dynamic.description(desc)
+        allure.dynamic.description_html(desc)
         assert response["status"] == data["expect"]["status"]
 
 
