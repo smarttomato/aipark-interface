@@ -1,0 +1,31 @@
+[ {
+  "uid" : "daa28791ffeacbac",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1648263483697,
+    "stop" : 1648263484137,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26a16fa0c230eb35",
+  "name" : "登录反向用例",
+  "time" : {
+    "start" : 1648263484139,
+    "stop" : 1648263484558,
+    "duration" : 419
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cd115f959ff5ebe",
+  "name" : "登录反向用例",
+  "time" : {
+    "start" : 1648263484603,
+    "stop" : 1648263485025,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

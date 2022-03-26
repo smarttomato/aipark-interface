@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '账号或密码错误' == '用户信息不存在'\n  - 用户信息不存在\n  + 账号或密码错误",
+      "children" : [ {
+        "name" : "登录反向用例",
+        "uid" : "26a16fa0c230eb35",
+        "parentUid" : "2c3e9a2a3cb8183196a3ab5b64c07dcd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648263484139,
+          "stop" : 1648263484558,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录反向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g71234567'}, 'expect': {'data': [], 'msg': '用户信息不存在', 'status': 500}}" ]
+      } ],
+      "uid" : "2c3e9a2a3cb8183196a3ab5b64c07dcd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

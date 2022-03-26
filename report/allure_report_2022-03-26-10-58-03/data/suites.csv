@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Mar 26 10:58:04 CST 2022","Sat Mar 26 10:58:04 CST 2022","419","testcase","test_login","TestLogin","","","登录反向用例",""
+"passed","Sat Mar 26 10:58:03 CST 2022","Sat Mar 26 10:58:04 CST 2022","440","testcase","test_login","TestLogin","","","登录正向用例",""
+"passed","Sat Mar 26 10:58:04 CST 2022","Sat Mar 26 10:58:05 CST 2022","422","testcase","test_login","TestLogin","","","登录反向用例",""

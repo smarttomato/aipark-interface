@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "bogon",
+    "children" : [ {
+      "name" : "4699-MainThread",
+      "children" : [ {
+        "name" : "登录正向用例",
+        "uid" : "437c6e450169a027",
+        "parentUid" : "a919b2d7315b44a9071e91d0a6bf81ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648263301099,
+          "stop" : 1648263301537,
+          "duration" : 438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g7123456'}, 'expect': {'status': 0}}" ]
+      }, {
+        "name" : "登录正向用例",
+        "uid" : "be80227fd4426789",
+        "parentUid" : "a919b2d7315b44a9071e91d0a6bf81ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648263301540,
+          "stop" : 1648263302187,
+          "duration" : 647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g71234567'}, 'expect': {'status': 500}}" ]
+      } ],
+      "uid" : "a919b2d7315b44a9071e91d0a6bf81ff"
+    } ],
+    "uid" : "2073f7d556df5d27a604e307fdf127df"
+  } ]
+}

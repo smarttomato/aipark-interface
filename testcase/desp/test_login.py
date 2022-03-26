@@ -6,9 +6,8 @@ from configs.config import host
 from common.base import get_test_data, get_headers
 
 
-test_data = get_test_data("login")
-# url = host["test"] + test_data[0]["path"]
-url = host["dev"] + test_data[0]["path"]
+test_data = get_test_data("login", project="desp")
+url = host["desp"]["test"] + test_data[0]["path"]
 
 
 @allure.feature("登录接口")

@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_login",
+    "children" : [ {
+      "name" : "登录正向用例",
+      "uid" : "44beab2b89b29dce",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648263585352,
+        "stop" : 1648263585839,
+        "duration" : 487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g7123456'}, 'expect': {'status': 0}}" ]
+    }, {
+      "name" : "登录反向用例",
+      "uid" : "561c2b06960b99c5",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648263585841,
+        "stop" : 1648263586246,
+        "duration" : 405
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'case_name': '登录反向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g71234567'}, 'expect': {'status': 500}}" ]
+    }, {
+      "name" : "登录反向用例",
+      "uid" : "73e4215e0d0f2468",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648263586250,
+        "stop" : 1648263586687,
+        "duration" : 437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'case_name': '登录反向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver111', 'password': 'g71234567'}, 'expect': {'status': 500}}" ]
+    }, {
+      "name" : "登录反向用例",
+      "uid" : "66eaaf4049e024df",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648263586690,
+        "stop" : 1648263587099,
+        "duration" : 409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'case_name': '登录反向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1121', 'password': 'g712345167'}, 'expect': {'status': 500}}" ]
+    } ],
+    "uid" : "testcase.test_login"
+  } ]
+}

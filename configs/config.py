@@ -18,8 +18,13 @@ log_info = {
 
 # host配置
 host = {
-    "test": "https://desp-api.test.chinawayltd.com/v1",
-    "dev": "https://desp-api.dev.chinawayltd.com/v1",
+    "desp": {
+        "test": "https://desp-api.test.chinawayltd.com/v1",
+        "dev": "https://desp-api.dev.chinawayltd.com/v1",
+    },
+    "gms": {
+        "test": "https://gms.test.chinawayltd.com"
+    }
 }
 
 # 数据库配置

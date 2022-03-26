@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "bogon",
+    "children" : [ {
+      "name" : "5254-MainThread",
+      "children" : [ {
+        "name" : "登录反向用例",
+        "uid" : "11e9df7429f0cdb3",
+        "parentUid" : "3852b856c7ccba41fdeaebef601bf165",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648263369159,
+          "stop" : 1648263369594,
+          "duration" : 435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录反向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g71234567'}, 'expect': {'status': 500}}" ]
+      }, {
+        "name" : "登录正向用例",
+        "uid" : "98fec093070401b3",
+        "parentUid" : "3852b856c7ccba41fdeaebef601bf165",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648263368738,
+          "stop" : 1648263369156,
+          "duration" : 418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录正向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver1', 'password': 'g7123456'}, 'expect': {'status': 0}}" ]
+      }, {
+        "name" : "登录反向用例",
+        "uid" : "62756eb5c81ea41c",
+        "parentUid" : "3852b856c7ccba41fdeaebef601bf165",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648263369597,
+          "stop" : 1648263369982,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_name': '登录反向用例', 'path': '/ucenter/user/login', 'type': 'post', 'data': {'passport': 'driver11', 'password': 'g7123456'}, 'expect': {'status': 500}}" ]
+      } ],
+      "uid" : "3852b856c7ccba41fdeaebef601bf165"
+    } ],
+    "uid" : "2073f7d556df5d27a604e307fdf127df"
+  } ]
+}
