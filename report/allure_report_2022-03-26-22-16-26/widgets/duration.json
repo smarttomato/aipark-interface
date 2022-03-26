@@ -1,0 +1,51 @@
+[ {
+  "uid" : "b003829489b3abbb",
+  "name" : "登录反向用例-密码错误",
+  "time" : {
+    "start" : 1648304187019,
+    "stop" : 1648304187516,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2574d3aa776cd21f",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1648304186509,
+    "stop" : 1648304187014,
+    "duration" : 505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbd1581b382b88c7",
+  "name" : "登录反向用例",
+  "time" : {
+    "start" : 1648304188673,
+    "stop" : 1648304189122,
+    "duration" : 449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2adcd31abe4832ea",
+  "name" : "登录正向用例",
+  "time" : {
+    "start" : 1648304187972,
+    "stop" : 1648304188669,
+    "duration" : 697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2b7e8c8ab287b65",
+  "name" : "登录反向用例-账户密码错误",
+  "time" : {
+    "start" : 1648304187520,
+    "stop" : 1648304187969,
+    "duration" : 449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

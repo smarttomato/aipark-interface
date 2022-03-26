@@ -3,12 +3,12 @@
   path: "/user/fadmin/admin/login/adminLogin"
   type: "post"
   data:
-    passport: "zhangzhimeng"
+    username: "zhangzhimeng"
     password: "Aa123123"
     namespace: "gms"
   expect:
     {
-     success: true
+     success: True
     }
 
 -
@@ -16,11 +16,11 @@
   path: "/user/fadmin/admin/login/adminLogin"
   type: "post"
   data:
-    passport: "zhangzhimeng"
-    password: "Aa123123"
+    username: "zhangzhimeng"
+    password: "Aa1231231"
     namespace: "gms"
   expect:
     {
-     success: false
+     success: False
     }
 

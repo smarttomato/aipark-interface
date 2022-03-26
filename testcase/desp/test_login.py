@@ -3,7 +3,7 @@ import requests
 import pytest
 import json
 from configs.config import host
-from common.base import get_test_data, get_headers
+from common.base import get_test_data, get_headers, save_token
 
 
 test_data = get_test_data("login", project="desp")
@@ -20,9 +20,10 @@ class TestLogin:
                "<font color='#4287f5'>请求类型：<font color='#000'>{} <br/>" \
                "<font color='#4287f5'>期望结果：<font color='#000'>{} <br/>" \
                "<font color='#4287f5'>实际结果：<font color='#000'>{}".format(url, data["type"], data["expect"], response)
-        # allure.dynamic.story(data["case_name"])
         allure.dynamic.title(data["case_name"])
         allure.dynamic.description_html(desc)
+        if response["status"] == 0:
+            save_token(response["data"]["token"], "desp")
         assert response["status"] == data["expect"]["status"]
 
 
