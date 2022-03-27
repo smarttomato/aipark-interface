@@ -9,14 +9,13 @@ import time
 """
 
 appkey = "6800548364"
+secret = "Fr2rsAJYtqlofdhkhiNuTqMoU8sFCdMF"
 
 
 # 获取gms的urlsign
 def get_gms_urlsign(params, timestamp):
     s = ""
-    secret = "Fr2rsAJYtqlofdhkhiNuTqMoU8sFCdMF"
     pre_str = "appkey={}&timestamp={}".format(appkey, timestamp)
-
     # 拼接参数
     for p in params:
         pre_str = pre_str + "&" + p + "=" + params[p]
