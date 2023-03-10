@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Mar 26 22:16:27 CST 2022","Sat Mar 26 22:16:27 CST 2022","497","testcase.desp","test_login","TestLogin","","","登录反向用例-密码错误",""
-"passed","Sat Mar 26 22:16:26 CST 2022","Sat Mar 26 22:16:27 CST 2022","505","testcase.desp","test_login","TestLogin","","","登录正向用例",""
-"passed","Sat Mar 26 22:16:28 CST 2022","Sat Mar 26 22:16:29 CST 2022","449","testcase.gms","test_login","TestLogin","","","登录反向用例",""
-"passed","Sat Mar 26 22:16:27 CST 2022","Sat Mar 26 22:16:28 CST 2022","697","testcase.gms","test_login","TestLogin","","","登录正向用例",""
-"passed","Sat Mar 26 22:16:27 CST 2022","Sat Mar 26 22:16:27 CST 2022","449","testcase.desp","test_login","TestLogin","","","登录反向用例-账户密码错误",""

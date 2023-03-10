@@ -1,5 +1,5 @@
 import logging
-from configs.config import log_info
+from config.conf import log_info
 
 # 定义日志级别
 log_l = {

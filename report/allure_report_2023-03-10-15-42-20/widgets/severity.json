@@ -1,0 +1,1 @@
+[{"uid":"f0de4261228a1766","name":"acb登录反向用例-不存在的用户名","time":{"start":1678434140298,"stop":1678434140356,"duration":58},"status":"passed","severity":"normal"},{"uid":"3e37147e55583b04","name":"acb登录正向用例","time":{"start":1678434140221,"stop":1678434140294,"duration":73},"status":"passed","severity":"normal"}]

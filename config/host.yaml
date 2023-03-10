@@ -1,0 +1,4 @@
+test:
+  url:
+    acb: "http://acb-pre.acs.aipark.com/"
+    zibo: "https://acb-prezb.ziboqy.cn:11443/"

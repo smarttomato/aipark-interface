@@ -1,0 +1,28 @@
+-
+  case_name: "acb登录正向用例"
+  type: "post"
+  path: "/acb/2.0/systems/login/login"
+  data:
+    account: "zzm"
+    password: "a2489f5705cd5267c06663dd9d8703d2"
+    verifyCode: ""
+    verifyCodeId: ""
+    version: "31d37cbfe418218343b7bd662706c471"
+  expect:
+    desc: "success"
+    state: 0
+
+-
+  case_name: "acb登录反向用例-不存在的用户名"
+  type: "post"
+  path: "/acb/2.0/systems/login/login"
+  data:
+    account: "zzmmm"
+    password: "a2489f5705cd5267c06663dd9d8703d2"
+    verifyCode: ""
+    verifyCodeId: ""
+    version: "31d37cbfe418218343b7bd662706c471"
+  expect:
+    desc: "账号或密码错误!"
+    state: 13
+
